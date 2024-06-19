@@ -63,7 +63,7 @@ input {
     background-color: var(--cor-secundaria);
 }
 
-button {
+.botao {
     padding: 10px 20px;
     font-size: 16px;
     color: var(--cor-secundaria);
@@ -71,8 +71,9 @@ button {
     border: 1px solid var(--cor-secundaria);
     border-radius: 3px;
     cursor: pointer;
+    text-decoration: none;
 }
 
-button:hover {
+.botao:hover {
     background-color: var(--cor-hover);
 }
