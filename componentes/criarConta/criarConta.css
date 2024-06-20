@@ -65,6 +65,7 @@ input {
 
 .botao {
   padding: 10px 20px;
+  margin: 5px 0px 20px 0px;
   font-size: 16px;
   color: var(--cor-secundaria);
   background-color: var(--cor-primaria);
