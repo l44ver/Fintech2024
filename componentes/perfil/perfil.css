@@ -1,36 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap");
 
 :root {
-    --cor-primaria: #1e0723;
-    --cor-secundaria: #ECE5F5;
-    --cor-terciaria: #6e357b;
-    --cor-quartaria: #b467d5;
-    --cor-hover: #450d51;
+	--cor-primaria: #1e0723;
+	--cor-secundaria: #ece5f5;
+	--cor-terciaria: #6e357b;
+	--cor-quartaria: #b467d5;
+	--cor-hover: #450d51;
 
-    --fonte-principal: 'Krona One', sans-serif;
-    --fonte-secundaria: 'Montserrat', sans-serif;
+	--fonte-principal: "Krona One", sans-serif;
+	--fonte-secundaria: "Montserrat", sans-serif;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    text-align: center;
-    background-color: var(--cor-secundaria);
-    font-family: var(--fonte-secundaria);
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	text-align: center;
+	background-color: var(--cor-secundaria);
+	font-family: var(--fonte-secundaria);
 }
 
 h1 {
-    font-family: var(--fonte-principal);
-    color: var(--cor-primaria);
-    font-size: 24px;
-    margin-bottom: 4%;
+	font-family: var(--fonte-principal);
+	color: var(--cor-primaria);
+	font-size: 24px;
+	margin-bottom: 4%;
 }
