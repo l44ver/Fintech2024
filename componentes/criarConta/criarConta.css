@@ -78,3 +78,10 @@ input {
 .botao:hover {
 	background-color: var(--cor-hover);
 }
+
+.icone {
+	width: 110px;
+  height: auto;
+	position: relative;
+	top: 5%;
+}

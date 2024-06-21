@@ -28,6 +28,13 @@ body {
 	font-family: var(--fonte-secundaria);
 }
 
+.icone {
+	width: 165px;
+  height: auto;
+	position: relative;
+	bottom: 4%;
+}
+
 h1 {
 	font-family: var(--fonte-principal);
 	color: var(--cor-primaria);
