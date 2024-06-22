@@ -4,6 +4,7 @@
 	--cor-primaria: #5a2c64;
 	--cor-secundaria: #ece5f5;
 	--cor-terciaria: #8e61a5;
+	--cor-quartenaria: #200a2b;
 	--cor-hover: #3d1845;
 
 	--fonte-principal: "Krona One", sans-serif;
@@ -31,14 +32,27 @@ main {
 	font-family: var(--fonte-secundaria);
 }
 
-h2 {
+.nome {
 	font-family: var(--fonte-principal);
-	color: var(--cor-primaria);
+	color: var(--cor-quartenaria);
 	font-size: 24px;
 	margin-bottom: 4%;
+	position: relative;
+	bottom: 3%;
 }
 
 .fotoUser {
 	width: 140px;
   height: auto;
+	position: relative;
+	bottom: 7%;
+}
+
+.configuracoes {
+	color: var(--cor-quartenaria);
+	margin: 0% 0% 3% 0%;
+}
+
+.documentacao {
+	color: var(--cor-quartenaria);
 }

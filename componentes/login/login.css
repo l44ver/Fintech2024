@@ -4,6 +4,7 @@
 	--cor-primaria: #5a2c64;
 	--cor-secundaria: #ece5f5;
 	--cor-terciaria: #8e61a5;
+	--cor-quartenaria: #200a2b;
 	--cor-hover: #3d1845;
 
 	--fonte-principal: "Krona One", sans-serif;
@@ -32,13 +33,6 @@ body {
   height: auto;
 	position: relative;
 	bottom: 4%;
-}
-
-h1 {
-	font-family: var(--fonte-principal);
-	color: var(--cor-primaria);
-	font-size: 24px;
-	margin-bottom: 4%;
 }
 
 form {
