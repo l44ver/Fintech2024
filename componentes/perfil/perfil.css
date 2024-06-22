@@ -56,3 +56,12 @@ main {
 .documentacao {
 	color: var(--cor-quartenaria);
 }
+
+.rodape {
+	padding: 18px;
+	text-align: center;
+	font-family: var(--fonte-secundaria);
+	font-size: 4px;
+	color: var(--cor-quartenaria);
+	background-color: var(--cor-primaria);
+}
