@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap");
 
 :root {
-	--cor-primaria: #5a2c64;
+	--cor-primaria: #120415;
 	--cor-secundaria: #ece5f5;
-	--cor-terciaria: #8e61a5;
-	--cor-quartenaria: #200a2b;
-	--cor-hover: #3d1845;
+	--cor-terciaria: #5f276c;
+	--cor-quartenaria: #8146a3;
+	--cor-hover: #3f1757;
 
 	--fonte-principal: "Krona One", sans-serif;
 	--fonte-secundaria: "Montserrat", sans-serif;
@@ -85,7 +85,7 @@ input {
 }
 
 .esqueci:hover {
-	color: var(--cor-hover);
+	color: var(--cor-quartenaria);
 }
 
 .criarConta {
@@ -96,5 +96,5 @@ input {
 }
 
 .criarConta:hover {
-	color: var(--cor-quartaria);
+	color: var(--cor-quartenaria);
 }
