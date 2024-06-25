@@ -64,10 +64,13 @@ main {
 }
 
 .rodape {
-	padding: 14px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
+	height: 3%;
 	font-family: var(--fonte-secundaria);
-	font-size: 70%;
+	font-size: 0.8rem;
 	color: var(--cor-secundaria);
 	background-color: var(--cor-primaria);
 }
