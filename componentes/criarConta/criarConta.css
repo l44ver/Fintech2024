@@ -32,7 +32,8 @@ h1 {
 	font-family: var(--fonte-principal);
 	color: var(--cor-primaria);
 	font-size: 24px;
-	margin-bottom: 4%;
+	position: relative;
+	bottom: 4%;
 }
 
 form {
