@@ -28,11 +28,11 @@ body {
 	font-family: var(--fonte-secundaria);
 }
 
-.icone {
-	width: 165px;
-  height: auto;
-	position: relative;
-	bottom: 4%;
+h1 {
+	font-family: var(--fonte-principal);
+	color: var(--cor-primaria);
+	font-size: 24px;
+	margin-bottom: 4%;
 }
 
 form {
@@ -40,7 +40,7 @@ form {
 	flex-direction: column;
 	align-items: center;
 	background-color: var(--cor-primaria);
-	padding: 20px;
+	padding: 25px 5px 20px 5px;
 	border-radius: 5px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	width: 100%;
@@ -48,7 +48,7 @@ form {
 }
 
 label {
-	padding: 10px;
+	padding: 1%;
 	font-size: 14px;
 	color: var(--cor-secundaria);
 }
@@ -92,9 +92,16 @@ input {
 	color: var(--cor-secundaria);
 	text-decoration: none;
 	font-size: 15px;
-	padding: 50px 10px 10px 10px;
+	padding: 30px 0px 0px 0px;
 }
 
 .criarConta:hover {
 	color: var(--cor-quartenaria);
+}
+
+.icone {
+	width: 60px;
+  height: auto;
+	position: relative;
+	top: 4%;
 }
