@@ -36,31 +36,40 @@ main {
 	font-family: var(--fonte-secundaria);
 }
 
-.nome {
-	font-family: var(--fonte-principal);
-	color: var(--cor-primaria);
-	font-size: 24px;
-	margin-bottom: 4%;
-	position: relative;
-	bottom: 3%;
-}
-
 .fotoUser {
 	width: 140px;
   height: auto;
 	position: relative;
-	bottom: 7%;
+	bottom: 18%;
+}
+
+.nome {
+	font-family: var(--fonte-principal);
+	color: var(--cor-primaria);
+	font-size: 24px;
+	position: relative;
+	bottom: 11%;
 }
 
 .configuracoes {
 	color: var(--cor-primaria);
-	margin: 0% 0% 3% 0%;
+	margin: 0px 0px 8px 0px;
 	font-size: 16px;
+}
+
+.configuracoes:hover {
+	color: var(--cor-quartenaria);
 }
 
 .documentacao {
 	color: var(--cor-primaria);
 	font-size: 11px;
+	position: relative;
+	top: 5%;
+}
+
+.documentacao:hover {
+	color: var(--cor-quartenaria);
 }
 
 .rodape {
